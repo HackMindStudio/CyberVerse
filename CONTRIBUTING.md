@@ -22,6 +22,20 @@ Thank you for contributing to CyberVerse. The current engineering priority is to
 - Never commit secrets, API keys, tokens, private keys, or production environment files.
 - Do not describe mock, stub, or demo behavior as production functionality.
 
+## Execution and approval boundaries
+
+Work should proceed independently when the task is clearly within the agreed Phase 1–10 audit scope and is safe, reversible, and evidence-based. Do not interrupt the owner for routine documentation, repository organization, read-only inspection, test execution, or small isolated fixes that preserve existing behavior.
+
+Ask the owner for approval before:
+- Destructive or irreversible operations.
+- Any database reset, deletion, destructive migration, or action that could alter production/user data.
+- Changing production credentials, secrets, authentication settings, billing, deployment, or access permissions.
+- Making a repository public/private or otherwise changing who can access project code.
+- Removing or replacing existing functionality when the impact is not fully established.
+- Expanding scope beyond the agreed Phase 1–10 audit and recovery.
+
+When approval is needed, explain the exact action, why it is needed, the expected impact, and the safe alternative. Do not ask repeatedly for approval for work already authorized.
+
 ## Safe change workflow
 
 1. Identify the affected phase and user journey.
