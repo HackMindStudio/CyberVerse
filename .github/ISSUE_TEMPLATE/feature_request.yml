@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose a scoped improvement related to the current Phase 1–10 project
+title: "[Enhancement]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "The current priority is Phase 1–10 audit and recovery. Phase 11 and unrelated scope are not being accepted in this review cycle."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or user need
+      description: What existing user problem needs to be addressed?
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Related phase
+      options:
+        - "Phase 1 — Foundation & Identity"
+        - "Phase 2 — Home Dashboard"
+        - "Phase 3 — AI Mentor Core"
+        - "Phase 4 — Programming Academy"
+        - "Phase 5 — Computer Science Academy"
+        - "Phase 6 — Linux Academy"
+        - "Phase 7 — Networking Academy"
+        - "Phase 8 — Web Development Academy"
+        - "Phase 8.5 — Backend & Progression Integrity"
+        - "Phase 9 — Real AI Provider Layer"
+        - "Phase 9.1 — AI Production Verification"
+        - "Phase 10 — Mobile Development Academy"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed minimal change
+      description: Explain how this can fit the existing architecture without rebuilding working functionality.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Link relevant code, user journey, or audit finding if available.
