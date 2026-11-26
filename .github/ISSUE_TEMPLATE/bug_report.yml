@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a reproducible CyberVerse defect
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Report only issues you can describe safely. Do not include passwords, API keys, tokens, or personal user data."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem summary
+      description: What is broken?
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Affected phase
+      options:
+        - "Phase 1 — Foundation & Identity"
+        - "Phase 2 — Home Dashboard"
+        - "Phase 3 — AI Mentor Core"
+        - "Phase 4 — Programming Academy"
+        - "Phase 5 — Computer Science Academy"
+        - "Phase 6 — Linux Academy"
+        - "Phase 7 — Networking Academy"
+        - "Phase 8 — Web Development Academy"
+        - "Phase 8.5 — Backend & Progression Integrity"
+        - "Phase 9 — Real AI Provider Layer"
+        - "Phase 9.1 — AI Production Verification"
+        - "Phase 10 — Mobile Development Academy"
+        - "Unknown"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal, numbered steps and test environment details.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Sanitized error messages, screenshots, or relevant logs. Remove secrets and personal data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I have removed credentials, secrets, and personal data.
+          required: true
+        - label: I have checked that this is not a duplicate report.
+          required: false
