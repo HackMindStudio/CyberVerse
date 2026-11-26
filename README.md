@@ -43,6 +43,12 @@ The current review scope is limited to the following existing phases:
 
 **Phase 11 is explicitly out of scope** until the Phase 1–10 audit and verified recovery work are complete.
 
+## Development status
+
+**CyberVerse is a work in progress (WIP).** The application is still under active development and must not be described as complete or production-ready. Features and phase completion must be assessed from the actual source and runtime evidence.
+
+The related BodyForge application is also a separate work-in-progress project; it is not part of this CyberVerse repository or its Phase 1–10 audit scope.
+
 ## Audit status
 
 This repository is currently being prepared to host the CyberVerse source and its audit records. At the time of the initial repository inspection, it contained only the starter README. The application source code, dependency manifests, database migrations, and test suite were not present.
