@@ -1,0 +1,58 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secret/
+
+# Dependencies and package-manager logs
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Common JavaScript build outputs
+.next/
+.nuxt/
+.output/
+dist/
+build/
+coverage/
+.turbo/
+.vercel/
+.netlify/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+
+# General build, test, and runtime output
+*.log
+tmp/
+temp/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Supabase local working state (keep migrations and config tracked)
+supabase/.temp/
