@@ -1,5 +1,11 @@
 # CyberVerse
 
+
+![Project Status: In Progress](https://img.shields.io/badge/Project%20Status-In%20Progress-orange)
+
+> **Development status: Work in Progress (WIP).** CyberVerse is actively being developed and is not yet complete or production-ready.
+
+
 > **Learn → Practice → Build → Create → Deploy → Grow**
 
 CyberVerse is an AI-powered technology learning platform and developer ecosystem. Its intended learning scope spans programming, computer science, cybersecurity, networking, Linux, web development, and mobile development, from beginner to advanced levels.
